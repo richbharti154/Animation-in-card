@@ -1,0 +1,16 @@
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.zoom {
+  transform: scale(1.2);
+}
